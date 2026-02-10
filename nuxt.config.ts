@@ -78,7 +78,7 @@ export default defineNuxtConfig({
       production: 'runtime',
       meta: {
         title: 'Sink API',
-        description: 'A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare.',
+        description: '一个简单、快速、安全的短链接服务，带有分析功能，100% 运行在 Cloudflare 上。',
       },
       route: '/_docs/openapi.json',
       ui: {
@@ -117,7 +117,7 @@ export default defineNuxtConfig({
       redirectOn: 'root',
     },
     baseUrl: '/',
-    defaultLocale: 'en-US',
+    defaultLocale: 'zh-CN',
   },
   shadcn: {
     /**
