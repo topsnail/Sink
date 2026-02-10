@@ -5,7 +5,7 @@ const { title, description, image } = useAppConfig()
 const route = useRoute()
 
 useSeoMeta({
-  title: `${title} - Link Shortener with Analytics`,
+  title: `${title} - 带有分析功能的短链接服务`,
   description,
   ogType: 'website',
   ogTitle: title,
@@ -20,7 +20,7 @@ useSeoMeta({
 
 useHead({
   htmlAttrs: {
-    lang: 'en',
+    lang: 'zh-CN',
   },
   meta: [
     {
